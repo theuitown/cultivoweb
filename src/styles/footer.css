@@ -1,0 +1,41 @@
+.footer{
+  width:100%;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+  color:white;
+}
+
+.famo_logo{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact_details{
+padding-left: 0px;
+}
+
+.contact_details li{
+  list-style: none;
+  padding-bottom: 1rem;
+}
+
+.inline{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.inline i{
+  font-size:2rem ;
+}
+
+.right{
+  align-self: flex-end;
+}
